@@ -76,3 +76,10 @@ input {
 input:focus {
     background-color: lightblue;
 }
+
+.donate-plan {
+    padding: 10%;
+    font-weight: 1000;
+    font-size: 25px;
+    color: black;
+}
