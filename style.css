@@ -1,23 +1,35 @@
 body {
     font-family: 'Playfair Display', serif;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
     font-size: 50px;
     font-style: inherit;
-    color: white;
+    color: black;
 }
 
 .flexible-container {
-    display: flex;
-
+    padding: 10%;
+    background-image: url(images/donation9.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-weight: 1000;
+    font-size: 25px;
+    color: black;
+    opacity: 0.9;
 }
 
-.half-width {
-    background-image: url("images/donation9.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
+.center {
     text-align: center;
-    padding: 25%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(224, 65, 65), rgb(224, 65, 65));
+    padding: 10px 40px;
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+    border-radius: 5px;
 }
