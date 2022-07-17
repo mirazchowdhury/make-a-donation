@@ -41,16 +41,19 @@ h1 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 
 li {
-    float: inline-start;
+    float: left;
+    padding-left: 10%;
+    margin-left: 10px;
+
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -58,6 +61,18 @@ li a {
 }
 
 li a:hover {
-    background-color: red;
+    background-color: rgb(224, 65, 65);
     background-size: cover;
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+input:focus {
+    background-color: lightblue;
 }
