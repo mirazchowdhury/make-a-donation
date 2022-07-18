@@ -83,3 +83,17 @@ input:focus {
     font-size: 25px;
     color: black;
 }
+
+.basic-needs {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 20%;
+    height: 30%;
+    box-shadow: 10px 10px 40px;
+    background-color: rgb(147, 191, 226);
+    background-image: url(icons/food.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
