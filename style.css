@@ -90,7 +90,7 @@ input:focus {
 
 .basic-needs {
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
@@ -106,7 +106,7 @@ input:focus {
 }
 
 .shelter {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 10%;
     padding-left: 50px;
     padding-right: 50px;
@@ -123,7 +123,7 @@ input:focus {
 }
 
 .education {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 10%;
     padding-left: 50px;
     padding-right: 50px;
