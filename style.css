@@ -60,9 +60,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: rgb(224, 65, 65);
-    background-size: cover;
+.select {
+    box-sizing: border-box;
+    background-color: cornflowerblue;
 }
 
 input {
