@@ -158,3 +158,25 @@ footer {
     box-sizing: content-box;
     color: white;
 }
+
+.amount {
+    padding: 25px 25px 20px 20px;
+    margin-right: 50px;
+    background-color: rgb(204, 197, 197);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.donation-amount {
+    display: flex;
+    justify-content: center;
+}
+
+#red {
+    background: #f8caca;
+    border: 3px solid red;
+    color: tomato;
+}
