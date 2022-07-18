@@ -84,16 +84,76 @@ input:focus {
     color: black;
 }
 
+.needs {
+    display: inline-flex;
+}
+
 .basic-needs {
     margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-right: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
     width: 20%;
-    height: 30%;
     box-shadow: 10px 10px 40px;
+    box-sizing: content-box;
     background-color: rgb(147, 191, 226);
     background-image: url(icons/food.png);
     background-position: top;
     background-repeat: no-repeat;
+}
+
+.shelter {
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    width: 20%;
+    box-shadow: 10px 10px 40px;
+    box-sizing: content-box;
+    background-color: rgb(218, 147, 147);
+    background-image: url(icons/shelter.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.education {
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    width: 20%;
+    box-shadow: 10px 10px 40px;
+    box-sizing: content-box;
+    background-color: rgb(245, 192, 113);
+    background-image: url(icons/Frame-1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: rgb(216, 97, 97);
+    font-size: 28px;
+    font-style: oblique;
+}
+
+footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 40px;
+    background-color: rgb(1, 7, 24);
+    box-sizing: content-box;
+    color: white;
 }
